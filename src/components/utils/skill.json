@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_utils_skills",
+  "info": {
+    "displayName": "Details",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_layout_references",
+  "info": {
+    "displayName": "References",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "references": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::reference.reference"
+    }
+  }
+}

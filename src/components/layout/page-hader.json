@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_page_haders",
+  "info": {
+    "displayName": "PageHader"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "introduction": {
+      "type": "text"
+    }
+  }
+}

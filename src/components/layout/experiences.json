@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_experiences",
+  "info": {
+    "displayName": "Experiences"
+  },
+  "options": {},
+  "attributes": {
+    "experiences": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::experience.experience"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

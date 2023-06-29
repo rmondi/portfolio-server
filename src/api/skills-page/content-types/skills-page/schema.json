@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "skills_pages",
+  "info": {
+    "singularName": "skills-page",
+    "pluralName": "skills-pages",
+    "displayName": "Skills page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "skills": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::skill.skill"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.page-hader"
+    }
+  }
+}
