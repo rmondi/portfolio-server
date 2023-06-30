@@ -110,8 +110,8 @@ coverage
 ############################
 # Platform
 ############################
-.platform
-.platform.app.yaml
+#.platform
+#.platform.app.yaml
 
 ############################
 # Strapi
