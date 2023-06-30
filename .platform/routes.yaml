@@ -1,6 +1,6 @@
 "https://www.{default}/":
     type: upstream
-    upstream: "portfolioServer:http"
+    upstream: "portfolio_server:http"
 
 "https://{default}/":
     type: redirect
