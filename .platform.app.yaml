@@ -35,7 +35,7 @@ web:
     start: npm run start
   upstream:
     socket_family: tcp
-    protocol: https
+    protocol: http
 
 # The size of the persistent disk of the application (in MB).
 disk: 1024
