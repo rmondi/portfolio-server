@@ -20,9 +20,7 @@ type: nodejs:18
 
 # The hooks executed at various points in the lifecycle of the application.
 hooks:
-  build: |
-    # Download dependencies and build Strapi.
-    npm run build    
+  build: npm run build
 
 # The relationships of the application with services or other applications.
 # The left-hand side is the name of the relationship as it will be exposed
@@ -34,9 +32,10 @@ relationships:
 # The configuration of app when it is exposed to the web.
 web:
   commands:
-    start: |
-      # Production start on all environments
-      npm run start      
+    start: npm run start
+  upstream:
+    socket_family: 1337
+    protocol: https
 
 # The size of the persistent disk of the application (in MB).
 disk: 1024
